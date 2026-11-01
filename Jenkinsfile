@@ -1,4 +1,3 @@
-```groovy
 def run(cmd) {
     if (isUnix()) {
         sh cmd
@@ -27,4 +26,3 @@ def deploy() {
         "--document-name AWS-RunShellScript --parameters " +
         "file://deploy.json"
 }
-```
