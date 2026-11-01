@@ -1,4 +1,4 @@
-```groovy
+
 def run(cmd) {
     if (isUnix()) {
         sh cmd
@@ -81,4 +81,3 @@ pipeline {
         }
     }
 }
-```
